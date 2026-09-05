@@ -75,8 +75,8 @@ const products: ProductCatalog = {
       image: "/images/men/6.jpeg",
       // showColorTextOnly: true,
       colors: [
-        { label: "Green", hex: "#2e5339", image: "/images/men/6-green.jpeg" },
         { label: "Brown", hex: "#5c4033", image: "/images/men/6-brown.jpeg" },
+        { label: "Green", hex: "#2e5339", image: "/images/men/6-green.jpeg" },
         { label: "Blue", hex: "#1f3a5f", image: "/images/men/6-blue.jpeg" },
         { label: "Purple", hex: "#4b2e5c", image: "/images/men/6-purple.jpeg" },
         { label: "Cream", hex: "#f5f0e1", image: "/images/men/6-cream.jpeg" },
@@ -157,7 +157,7 @@ const products: ProductCatalog = {
     },
     {
       name: "Hoodie Jacket Set",
-      price: 55000,
+      price: 35000,
       image: "/images/women/3.jpg",
       showColorTextOnly: true,
       colors: [
