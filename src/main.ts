@@ -2,8 +2,9 @@ import "./style.css";
 import type { Product, Category, ProductCatalog } from "./types";
 
 /* ====== EDIT YOUR SETTINGS HERE ====== */
-const WHATSAPP_NUMBER = "2348012345678";
-const INSTAGRAM_URL = "https://instagram.com/nimnovacollections";
+const WHATSAPP_NUMBER = "2349132436683";
+const INSTAGRAM_URL =
+  "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnimnovacollections&is_from_rle";
 const CURRENCY = "₦";
 /* ====================================== */
 
