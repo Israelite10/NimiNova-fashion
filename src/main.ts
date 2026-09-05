@@ -4,7 +4,7 @@ import type { Product, Category, ProductCatalog } from "./types";
 /* ====== EDIT YOUR SETTINGS HERE ====== */
 const WHATSAPP_NUMBER = "2349132436683";
 const INSTAGRAM_URL =
-  "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fnimnovacollections&is_from_rle";
+  "https://www.instagram.com/nimnova_fashion?igsi=bjhsaXcwajFieXNs";
 const CURRENCY = "₦";
 /* ====================================== */
 
@@ -115,7 +115,7 @@ const products: ProductCatalog = {
       ],
     },
     {
-      name: "Track Jacket",
+      name: "Uinsex Track Jacket Set ",
       price: 35000,
       image: "/images/men/11.jpeg",
       colors: [
@@ -129,7 +129,7 @@ const products: ProductCatalog = {
     },
     {
       name: "NIMNOVA Original Essentials Long Sleeve Tee",
-      price: 33000,
+      price: 40000,
       image: "/images/men/12.jpeg",
     },
   ],
