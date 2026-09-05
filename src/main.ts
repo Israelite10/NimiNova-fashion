@@ -15,8 +15,8 @@ const CURRENCY = "₦";
 const products: ProductCatalog = {
   men: [
     {
-      name: "Oversized Bomber Jacket",
-      price: 45000,
+      name: "NIMNOVA Tank Top (Deluxe)",
+      price: 25000,
       image: "/images/men/1.jpeg",
       colors: [
         { label: "Black", hex: "#1a1a1a", image: "/images/men/1.jpeg" },
@@ -26,8 +26,8 @@ const products: ProductCatalog = {
       ],
     },
     {
-      name: "Ribbed Knit Sweater",
-      price: 28000,
+      name: "NIMNOVA Fitted Sleeveless",
+      price: 25000,
       image: "/images/men/2.jpeg",
       colors: [
         { label: "Black", hex: "#1a1a1a", image: "/images/men/2-black.jpeg" },
@@ -36,8 +36,8 @@ const products: ProductCatalog = {
       ],
     },
     {
-      name: "Cargo Utility Pants",
-      price: 32000,
+      name: "NIMNOVA Essentials",
+      price: 35000,
       image: "/images/men/3.jpeg",
       colors: [
         {
@@ -51,31 +51,39 @@ const products: ProductCatalog = {
       ],
     },
     {
-      name: "Classic Denim Jacket",
-
-      price: 38000,
+      name: "NIMNOVA Uinsex Hoodie",
+      price: 30000,
       image: "/images/men/4.jpeg",
-      colors: [{ label: "Black", hex: "#1a1a1a", image: "/images/men/4.jpeg" }],
-    },
-    {
-      name: "Linen Short-Sleeve Shirt",
-      price: 22000,
-      image: "/images/men/5.jpeg",
-    },
-    {
-      name: "Track Pants Set",
-      price: 35000,
-      image: "/images/men/6.jpeg",
-      showColorTextOnly: true,
       colors: [
-        { label: "Black", hex: "#1a1a1a", image: "/images/men/6.jpeg" },
-        { label: "Grey", hex: "#9a9a9a", image: "/images/men/6-grey.jpeg" },
-        { label: "White", hex: "#f2f2f2", image: "/images/men/6-white.jpeg" },
+        {
+          label: "Black",
+          hex: "#1a1a1a",
+          image: "/images/men/4.jpeg",
+          backImage: "/images/men/4-back.jpeg", // <-- add your back-view photo here
+        },
       ],
     },
     {
-      name: "Denim Trucker Vest",
-      price: 34000,
+      name: "NIMNOVA Track Sweatshirt",
+      price: 40000,
+      image: "/images/men/5.jpeg",
+    },
+    {
+      name: "Hoodie Jacket Set",
+      price: 55000,
+      image: "/images/men/6.jpeg",
+      // showColorTextOnly: true,
+      colors: [
+        { label: "Green", hex: "#2e5339", image: "/images/men/6-green.jpeg" },
+        { label: "Brown", hex: "#5c4033", image: "/images/men/6-brown.jpeg" },
+        { label: "Blue", hex: "#1f3a5f", image: "/images/men/6-blue.jpeg" },
+        { label: "Purple", hex: "#4b2e5c", image: "/images/men/6-purple.jpeg" },
+        { label: "Cream", hex: "#f5f0e1", image: "/images/men/6-cream.jpeg" },
+      ],
+    },
+    {
+      name: "NIMNOVA Shorts",
+      price: 18000,
       image: "/images/men/7.jpeg",
       colors: [
         { label: "Black", hex: "#1a1a1a", image: "/images/men/7-black.jpeg" },
@@ -85,45 +93,49 @@ const products: ProductCatalog = {
     },
     {
       name: "Quilted Vest Jacket",
-      price: 36000,
+      price: 25000,
       image: "/images/men/8.jpeg",
       colors: [
         { label: "Black", hex: "#1a1a1a", image: "/images/men/8.jpeg" },
         { label: "Grey", hex: "#9a9a9a", image: "/images/men/8-grey.jpeg" },
+        { label: "Red", hex: "#8b1e1e", image: "/images/men/8-red.jpeg" },
       ],
     },
+
     {
-      name: "Wide-Leg Chinos",
-      price: 29000,
-      image: "/images/men/9.jpeg",
-      colors: [{ label: "Black", hex: "#1a1a1a", image: "/images/men/9.jpeg" }],
-    },
-    {
-      name: "Graphic Print Hoodie",
-      price: 31000,
+      name: "NIMNOVA Premium Unisex Hoodies",
+      price: 40000,
       image: "/images/men/10.jpeg",
-      showColorTextOnly: true,
+      // showColorTextOnly: true,
       colors: [
         { label: "Black", hex: "#1a1a1a", image: "/images/men/10.jpeg" },
-        { label: "Grey", hex: "#9a9a9a", image: "/images/men/10-grey.jpeg" },
-        { label: "White", hex: "#f2f2f2", image: "/images/men/10-white.jpeg" },
+        { label: "Red", hex: "#8b1e1e", image: "/images/men/10-red.jpeg" },
+        { label: "Cream", hex: "#f5f0e1", image: "/images/men/10-cream.jpeg" },
       ],
     },
     {
-      name: "Double-Breasted Coat",
-      price: 52000,
+      name: "Track Jacket",
+      price: 35000,
       image: "/images/men/11.jpeg",
+      colors: [
+        {
+          label: "cream",
+          hex: "#f5f0e1",
+          image: "/images/men/11.jpeg",
+          backImage: "/images/men/11-pants.jpeg", // <-- add your back-view photo here
+        },
+      ],
     },
     {
-      name: "Corduroy Overshirt",
+      name: "NIMNOVA Original Essentials Long Sleeve Tee",
       price: 33000,
       image: "/images/men/12.jpeg",
     },
   ],
   women: [
     {
-      name: "Satin Wrap Dress",
-      price: 40000,
+      name: "NIMNOVA Shorts",
+      price: 18000,
       image: "/images/women/1.jpeg",
       colors: [
         { label: "Black", hex: "#1a1a1a", image: "/images/women/1-black.jpeg" },
@@ -132,8 +144,8 @@ const products: ProductCatalog = {
       ],
     },
     {
-      name: "Cropped Puffer Jacket",
-      price: 48000,
+      name: "NIMNOVA Tank Top (Deluxe)",
+      price: 25000,
       image: "/images/women/2.jpeg",
       colors: [
         { label: "Black", hex: "#1a1a1a", image: "/images/men/1.jpeg" },
@@ -143,8 +155,8 @@ const products: ProductCatalog = {
       ],
     },
     {
-      name: "High-Waist Trousers",
-      price: 30000,
+      name: "Hoodie Jacket Set",
+      price: 55000,
       image: "/images/women/3.jpg",
       colors: [
         {
@@ -157,94 +169,111 @@ const products: ProductCatalog = {
           hex: "#8e44ad",
           image: "/images/women/3-purple.jpeg",
         },
-        { label: "White", hex: "#f2f2f2", image: "/images/women/3-white.jpeg" },
+        {
+          label: "White",
+          hex: "#f2f2f2",
+          image: "/images/women/3-white.jpeg",
+        },
+        {
+          label: "lightblue",
+          hex: "#add8e6",
+          image: "/images/women/3-lightblue.jpeg",
+        },
       ],
     },
     {
       name: "Off-Shoulder Blouse",
       price: 25000,
       image: "/images/women/4.jpeg",
+      colors: [
+        {
+          label: "grey",
+          hex: "#9a9a9a",
+          image: "/images/women/4.jpeg",
+        },
+        {
+          label: "grey",
+          hex: "#9a9a9a",
+          image: "/images/women/4-grey.jpeg",
+        },
+      ],
     },
     {
       name: "Pleated Midi Skirt",
-      price: 27000,
+      price: 25000,
       image: "/images/women/5.jpeg",
-      colors: [
-        { label: "Black", hex: "#1a1a1a", image: "/images/women/5.jpeg" },
-        { label: "Grey", hex: "#9a9a9a", image: "/images/women/5-grey.jpg" },
-        { label: "White", hex: "#f2f2f2", image: "/images/women/5-white.jpg" },
-      ],
+      colors: [],
     },
-    {
-      name: "Two-Piece Co-ord Set",
-      price: 42000,
-      image: "/images/women/6.jpg",
-      colors: [
-        { label: "Black", hex: "#1a1a1a", image: "/images/women/6.jpg" },
-        { label: "Grey", hex: "#9a9a9a", image: "/images/women/6-grey.jpg" },
-        { label: "White", hex: "#f2f2f2", image: "/images/women/6-white.jpg" },
-      ],
-    },
-    {
-      name: "Sequin Slip Dress",
-      price: 46000,
-      image: "/images/women/7.jpg",
-      colors: [
-        { label: "Black", hex: "#1a1a1a", image: "/images/women/7.jpg" },
-        { label: "Grey", hex: "#9a9a9a", image: "/images/women/7-grey.jpg" },
-        { label: "White", hex: "#f2f2f2", image: "/images/women/7-white.jpg" },
-      ],
-    },
-    {
-      name: "Faux Leather Trench",
-      price: 50000,
-      image: "/images/women/8.jpg",
-      colors: [
-        { label: "Black", hex: "#1a1a1a", image: "/images/women/8.jpg" },
-        { label: "Grey", hex: "#9a9a9a", image: "/images/women/8-grey.jpg" },
-        { label: "White", hex: "#f2f2f2", image: "/images/women/8-white.jpg" },
-      ],
-    },
-    {
-      name: "Wide-Leg Palazzo Pants",
-      price: 28000,
-      image: "/images/women/9.jpg",
-      colors: [
-        { label: "Black", hex: "#1a1a1a", image: "/images/women/9.jpg" },
-        { label: "Grey", hex: "#9a9a9a", image: "/images/women/9-grey.jpg" },
-        { label: "White", hex: "#f2f2f2", image: "/images/women/9-white.jpg" },
-      ],
-    },
-    {
-      name: "Ruched Bodycon Dress",
-      price: 37000,
-      image: "/images/women/10.jpg",
-      colors: [
-        { label: "Black", hex: "#1a1a1a", image: "/images/women/10.jpg" },
-        { label: "Grey", hex: "#9a9a9a", image: "/images/women/10-grey.jpg" },
-        { label: "White", hex: "#f2f2f2", image: "/images/women/10-white.jpg" },
-      ],
-    },
-    {
-      name: "Tailored Blazer Set",
-      price: 44000,
-      image: "/images/women/11.jpg",
-      colors: [
-        { label: "Black", hex: "#1a1a1a", image: "/images/women/11.jpg" },
-        { label: "Grey", hex: "#9a9a9a", image: "/images/women/11-grey.jpg" },
-        { label: "White", hex: "#f2f2f2", image: "/images/women/11-white.jpg" },
-      ],
-    },
-    {
-      name: "Chiffon Maxi Dress",
-      price: 39000,
-      image: "/images/women/12.jpg",
-      colors: [
-        { label: "Black", hex: "#1a1a1a", image: "/images/women/12.jpg" },
-        { label: "Grey", hex: "#9a9a9a", image: "/images/women/12-grey.jpg" },
-        { label: "White", hex: "#f2f2f2", image: "/images/women/12-white.jpg" },
-      ],
-    },
+    // {
+    //   name: "Two-Piece Co-ord Set",
+    //   price: 42000,
+    //   image: "/images/women/6.jpg",
+    //   colors: [
+    //     { label: "Black", hex: "#1a1a1a", image: "/images/women/6.jpg" },
+    //     { label: "Grey", hex: "#9a9a9a", image: "/images/women/6-grey.jpg" },
+    //     { label: "White", hex: "#f2f2f2", image: "/images/women/6-white.jpg" },
+    //   ],
+    // },
+    // {
+    //   name: "Sequin Slip Dress",
+    //   price: 46000,
+    //   image: "/images/women/7.jpg",
+    //   colors: [
+    //     { label: "Black", hex: "#1a1a1a", image: "/images/women/7.jpg" },
+    //     { label: "Grey", hex: "#9a9a9a", image: "/images/women/7-grey.jpg" },
+    //     { label: "White", hex: "#f2f2f2", image: "/images/women/7-white.jpg" },
+    //   ],
+    // },
+    // {
+    //   name: "Faux Leather Trench",
+    //   price: 50000,
+    //   image: "/images/women/8.jpg",
+    //   colors: [
+    //     { label: "Black", hex: "#1a1a1a", image: "/images/women/8.jpg" },
+    //     { label: "Grey", hex: "#9a9a9a", image: "/images/women/8-grey.jpg" },
+    //     { label: "White", hex: "#f2f2f2", image: "/images/women/8-white.jpg" },
+    //   ],
+    // },
+    // {
+    //   name: "Wide-Leg Palazzo Pants",
+    //   price: 28000,
+    //   image: "/images/women/9.jpg",
+    //   colors: [
+    //     { label: "Black", hex: "#1a1a1a", image: "/images/women/9.jpg" },
+    //     { label: "Grey", hex: "#9a9a9a", image: "/images/women/9-grey.jpg" },
+    //     { label: "White", hex: "#f2f2f2", image: "/images/women/9-white.jpg" },
+    //   ],
+    // },
+    // {
+    //   name: "Ruched Bodycon Dress",
+    //   price: 37000,
+    //   image: "/images/women/10.jpg",
+    //   colors: [
+    //     { label: "Black", hex: "#1a1a1a", image: "/images/women/10.jpg" },
+    //     { label: "Grey", hex: "#9a9a9a", image: "/images/women/10-grey.jpg" },
+    //     { label: "White", hex: "#f2f2f2", image: "/images/women/10-white.jpg" },
+    //   ],
+    // },
+    // {
+    //   name: "Tailored Blazer Set",
+    //   price: 44000,
+    //   image: "/images/women/11.jpg",
+    //   colors: [
+    //     { label: "Black", hex: "#1a1a1a", image: "/images/women/11.jpg" },
+    //     { label: "Grey", hex: "#9a9a9a", image: "/images/women/11-grey.jpg" },
+    //     { label: "White", hex: "#f2f2f2", image: "/images/women/11-white.jpg" },
+    //   ],
+    // },
+    // {
+    //   name: "Chiffon Maxi Dress",
+    //   price: 39000,
+    //   image: "/images/women/12.jpg",
+    //   colors: [
+    //     { label: "Black", hex: "#1a1a1a", image: "/images/women/12.jpg" },
+    //     { label: "Grey", hex: "#9a9a9a", image: "/images/women/12-grey.jpg" },
+    //     { label: "White", hex: "#f2f2f2", image: "/images/women/12-white.jpg" },
+    //   ],
+    // },
   ],
 };
 

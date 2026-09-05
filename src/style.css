@@ -299,6 +299,7 @@ img {
   gap: 8px;
 }
 .card-name {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 15px;
   font-weight: 600;
 }
