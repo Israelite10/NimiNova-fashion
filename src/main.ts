@@ -183,8 +183,8 @@ const products: ProductCatalog = {
       ],
     },
     {
-      name: "Off-Shoulder Blouse",
-      price: 25000,
+      name: "Crop Sweatshirt",
+      price: 33000,
       image: "/images/women/4.jpeg",
       colors: [
         {
@@ -200,7 +200,7 @@ const products: ProductCatalog = {
       ],
     },
     {
-      name: "Pleated Midi Skirt",
+      name: "OFF Shoulder Hoodie Set",
       price: 25000,
       image: "/images/women/5.jpeg",
       colors: [],
