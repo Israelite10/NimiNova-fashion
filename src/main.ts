@@ -159,22 +159,23 @@ const products: ProductCatalog = {
       name: "Hoodie Jacket Set",
       price: 55000,
       image: "/images/women/3.jpg",
+      showColorTextOnly: true,
       colors: [
-        {
-          label: "Green",
-          hex: "#90c290",
-          image: "/images/women/3-green.jpeg",
-        },
-        {
-          label: "Purple",
-          hex: "#8e44ad",
-          image: "/images/women/3-purple.jpeg",
-        },
-        {
-          label: "White",
-          hex: "#f2f2f2",
-          image: "/images/women/3-white.jpeg",
-        },
+        // {
+        //   label: "Green",
+        //   hex: "#90c290",
+        //   image: "/images/women/3-green.jpeg",
+        // },
+        // {
+        //   label: "Purple",
+        //   hex: "#8e44ad",
+        //   image: "/images/women/3-purple.jpeg",
+        // },
+        // {
+        //   label: "White",
+        //   hex: "#f2f2f2",
+        //   image: "/images/women/3-white.jpeg",
+        // },
         {
           label: "lightblue",
           hex: "#add8e6",
@@ -183,7 +184,7 @@ const products: ProductCatalog = {
       ],
     },
     {
-      name: "Crop Sweatshirt",
+      name: "Croped Sweatshirt",
       price: 33000,
       image: "/images/women/4.jpeg",
       colors: [
