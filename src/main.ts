@@ -170,7 +170,7 @@ const products: ProductCatalog = {
     },
     {
       name: "Hoodie Jacket Set",
-      price: 35000,
+      price: 30000,
       image: "/images/women/3.jpg",
       // showColorTextOnly: true,
       colors: [
