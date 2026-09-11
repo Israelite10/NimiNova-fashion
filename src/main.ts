@@ -23,7 +23,7 @@ const products: ProductCatalog = {
         { label: "Black", hex: "#1a1a1a", image: "/images/men/1.jpeg" },
         { label: "Purple", hex: "#8e44ad", image: "/images/men/1-purple.jpeg" },
         { label: "White", hex: "#f2f2f2", image: "/images/men/1-white.jpeg" },
-        { label: "pink", hex: "#e91e8c", image: "/images/men/1-pink.jpeg" },
+        { label: "red", hex: "#e02020", image: "/images/men/1-red.PNG" },
       ],
     },
     {
@@ -33,7 +33,7 @@ const products: ProductCatalog = {
       colors: [
         { label: "Black", hex: "#1a1a1a", image: "/images/men/2-black.jpeg" },
 
-        { label: "White", hex: "#f2f2f2", image: "/images/men/2.jpeg" },
+        { label: "White", hex: "#f2f2f2", image: "/images/men/2.PNG" },
       ],
     },
     {
@@ -47,8 +47,8 @@ const products: ProductCatalog = {
           image: "/images/men/3.jpeg",
           backImage: "/images/men/3-back.jpeg", // <-- add your back-view photo here
         },
-        { label: "Grey", hex: "#9a9a9a", image: "/images/men/3-grey.jpeg" },
-        { label: "White", hex: "#f2f2f2", image: "/images/men/3-white.jpeg" },
+        { label: "Grey", hex: "#9a9a9a", image: "/images/men/3-grey.PNG" },
+        { label: "White", hex: "#f2f2f2", image: "/images/men/3-white.PNG" },
       ],
     },
     {
@@ -67,7 +67,7 @@ const products: ProductCatalog = {
     {
       name: "NIMNOVA Track Sweatshirt",
       price: 40000,
-      image: "/images/men/5.jpeg",
+      image: "/images/men/5.PNG",
     },
     {
       name: "Hoodie Jacket Set",
@@ -76,10 +76,10 @@ const products: ProductCatalog = {
       // showColorTextOnly: true,
       colors: [
         { label: "Brown", hex: "#5c4033", image: "/images/men/6-brown.jpeg" },
-        { label: "Green", hex: "#2e5339", image: "/images/men/6-green.jpeg" },
+        { label: "Green", hex: "#2e5339", image: "/images/men/6-green.PNG" },
         { label: "Blue", hex: "#1f3a5f", image: "/images/men/6-blue.jpeg" },
         { label: "Purple", hex: "#4b2e5c", image: "/images/men/6-purple.jpeg" },
-        { label: "Cream", hex: "#f5f0e1", image: "/images/men/6-cream.jpeg" },
+        { label: "Cream", hex: "#f5f0e1", image: "/images/men/6-cream.PNG" },
       ],
     },
     {
@@ -97,8 +97,8 @@ const products: ProductCatalog = {
       price: 25000,
       image: "/images/men/8.jpeg",
       colors: [
+        { label: "Ash", hex: "#b2beb5", image: "/images/men/8-ash.PNG" },
         { label: "Black", hex: "#1a1a1a", image: "/images/men/8.jpeg" },
-        { label: "Grey", hex: "#9a9a9a", image: "/images/men/8-grey.jpeg" },
         { label: "Red", hex: "#8b1e1e", image: "/images/men/8-red.jpeg" },
       ],
     },
@@ -109,8 +109,14 @@ const products: ProductCatalog = {
       image: "/images/men/10.jpeg",
       // showColorTextOnly: true,
       colors: [
+        {
+          label: "Red",
+          hex: "#8b1e1e",
+          image: "/images/men/10-red.PNG",
+          backImage: "/images/men/10-redback.PNG", // <-- add your back-view photo here
+        },
         { label: "Black", hex: "#1a1a1a", image: "/images/men/10.jpeg" },
-        { label: "Red", hex: "#8b1e1e", image: "/images/men/10-red.jpeg" },
+
         { label: "Cream", hex: "#f5f0e1", image: "/images/men/10-cream.jpeg" },
       ],
     },
@@ -149,37 +155,40 @@ const products: ProductCatalog = {
       price: 25000,
       image: "/images/women/2.jpeg",
       colors: [
-        { label: "Black", hex: "#1a1a1a", image: "/images/men/1.jpeg" },
-        { label: "Purple", hex: "#8e44ad", image: "/images/men/1-purple.jpeg" },
-        { label: "White", hex: "#f2f2f2", image: "/images/men/1-white.jpeg" },
-        { label: "pink", hex: "#e91e8c", image: "/images/men/1-pink.jpeg" },
+        { label: "pink", hex: "#e91e8c", image: "/images/women/2-pink.PNG" },
+        {
+          label: "Purple",
+          hex: "#8e44ad",
+          image: "/images/women/2-purple.jpeg",
+        },
+
+        { label: "White", hex: "#f2f2f2", image: "/images/women/2-white.jpeg" },
+
+        { label: "red", hex: "#c91111", image: "/images/women/2-red.jpeg" },
+        { label: "Black", hex: "#1a1a1a", image: "/images/women/2.jpeg" },
       ],
     },
     {
       name: "Hoodie Jacket Set",
       price: 35000,
       image: "/images/women/3.jpg",
-      showColorTextOnly: true,
+      // showColorTextOnly: true,
       colors: [
-        // {
-        //   label: "Green",
-        //   hex: "#90c290",
-        //   image: "/images/women/3-green.jpeg",
-        // },
-        // {
-        //   label: "Purple",
-        //   hex: "#8e44ad",
-        //   image: "/images/women/3-purple.jpeg",
-        // },
-        // {
-        //   label: "White",
-        //   hex: "#f2f2f2",
-        //   image: "/images/women/3-white.jpeg",
-        // },
+        { label: "Ash", hex: "#b2beb5", image: "/images/women/3-ash.PNG" },
         {
-          label: "lightblue",
-          hex: "#add8e6",
-          image: "/images/women/3-lightblue.jpeg",
+          label: "Cream",
+          hex: "#f5f0e1",
+          image: "/images/women/3-cream.PNG",
+        },
+        {
+          label: "green",
+          hex: "#2e5339",
+          image: "/images/women/3-green.jpeg",
+        },
+        {
+          label: "wine",
+          hex: "#5e1a26",
+          image: "/images/women/3-wine.PNG",
         },
       ],
     },
@@ -312,7 +321,7 @@ function renderGrid(list: Product[], mountId: string): void {
       const swatchesHtml = product.showColorTextOnly
         ? `<p class="multi-color-note">Available in multiple colors</p>`
         : colors.length
-        ? `<div class="color-swatches">
+          ? `<div class="color-swatches">
             ${colors
               .map(
                 (c, ci) => `
@@ -325,20 +334,20 @@ function renderGrid(list: Product[], mountId: string): void {
                 data-label="${c.label}"
                 title="${c.label}"
                 aria-label="${c.label}"
-              ></button>`
+              ></button>`,
               )
               .join("")}
           </div>`
-        : "";
+          : "";
 
       return `
       <div class="card" data-product-index="${index}">
         <div class="card-img">
           <img src="${initialImage}" alt="${
-        product.name
-      }" loading="lazy" data-zoomable data-front="${initialImage}" data-back="${
-        initialColor?.backImage ?? ""
-      }">
+            product.name
+          }" loading="lazy" data-zoomable data-front="${initialImage}" data-back="${
+            initialColor?.backImage ?? ""
+          }">
           <div class="view-toggle ${hasBack ? "" : "hidden"}">
             <button type="button" class="view-btn active" data-view="front">Front</button>
             <button type="button" class="view-btn" data-view="back">Back</button>
@@ -351,7 +360,7 @@ function renderGrid(list: Product[], mountId: string): void {
             <span class="price">${formatPrice(product.price)}</span>
             <a class="buy-btn" href="${buyLink(
               product,
-              initialLabel
+              initialLabel,
             )}" target="_blank" rel="noopener">
               ${WHATSAPP_ICON_SVG}
               Buy
@@ -431,7 +440,7 @@ function renderGrid(list: Product[], mountId: string): void {
 function openLightbox(src: string, alt: string): void {
   const lightbox = document.getElementById("lightbox");
   const lightboxImg = document.getElementById(
-    "lightboxImg"
+    "lightboxImg",
   ) as HTMLImageElement | null;
   if (!lightbox || !lightboxImg) return;
   lightboxImg.src = src;
@@ -462,20 +471,20 @@ function setupLightbox(): void {
 
 function setupContactLinks(): void {
   const whatsappLink = document.getElementById(
-    "contact-whatsapp"
+    "contact-whatsapp",
   ) as HTMLAnchorElement | null;
   const instagramLink = document.getElementById(
-    "contact-instagram"
+    "contact-instagram",
   ) as HTMLAnchorElement | null;
   const floatWhatsapp = document.getElementById(
-    "float-whatsapp"
+    "float-whatsapp",
   ) as HTMLAnchorElement | null;
 
   if (whatsappLink) {
     const message =
       "Hi NIM NOVA COLLECTIONS, I'd like to know more about your pieces.";
     whatsappLink.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-      message
+      message,
     )}`;
   }
   if (instagramLink) {
@@ -485,7 +494,7 @@ function setupContactLinks(): void {
     const message =
       "Hi NIM NOVA COLLECTIONS, I have a question about your products.";
     floatWhatsapp.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(
-      message
+      message,
     )}`;
   }
 }
@@ -514,7 +523,7 @@ function setupCategoryTabs(): void {
 
 function setupMobileNav(): void {
   const navToggle = document.getElementById(
-    "navToggle"
+    "navToggle",
   ) as HTMLButtonElement | null;
   const navMobilePanel = document.getElementById("navMobilePanel");
   if (!navToggle || !navMobilePanel) return;
@@ -540,7 +549,7 @@ function setupShopLinks(): void {
         e.preventDefault();
         const target = link.dataset.target;
         const tabButton = document.querySelector<HTMLButtonElement>(
-          `.tab[data-target="${target}"]`
+          `.tab[data-target="${target}"]`,
         );
         tabButton?.click();
         document.getElementById("shop")?.scrollIntoView({ behavior: "smooth" });
